@@ -1,0 +1,44 @@
+.slider {
+    height: 500px;
+    background-color: antiquewhite;
+    position: relative;
+    .slider-info-wrap {
+        width: 45%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid white;
+        .slider-info {
+            margin: 8px;
+            padding: 20px 60px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            span {
+                display: block;
+                padding: 10px 0;
+                line-height: 1.8;
+                letter-spacing: 0.1em;
+            }
+            .slider-info__heading {
+                font-size: 26px;
+                line-height: 1.2;
+                color: rgba(243, 214, 214, 1);
+                padding: 20px 0;
+            }
+            .slider-info__description {
+                line-height: 1.8;
+            }
+            a {
+                width: 50%;
+                margin: 0 auto;
+                display: block;
+                margin-top: 15px;
+                padding: 10px 30px;
+                background-color: rgba(243, 214, 214, 1);
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
