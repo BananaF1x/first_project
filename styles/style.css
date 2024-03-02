@@ -74,4 +74,61 @@
   background-color: rgb(243, 214, 214);
   color: white;
   text-transform: uppercase;
+}
+
+.artist-wrap .artist {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+.artist-wrap .artist .artist__photo {
+  width: 500px;
+}
+.artist-wrap .artist .artist__about {
+  width: 45%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 1px solid black;
+  padding: 20px 40px;
+  background-color: white;
+}
+.artist-wrap .artist .artist__about h3 {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+  padding: 10px 0 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+}
+.artist-wrap .artist .artist__about h3 .artist__name {
+  line-height: 1.2;
+  letter-spacing: 0em;
+  font-size: 26px;
+}
+.artist-wrap .artist .artist__about p {
+  line-height: 1.2;
+  font-size: 25px;
+}
+.artist-wrap .artist .artist__about .artist__description--mod {
+  display: block;
+  padding: 30px 0 40px;
+  line-height: 1.4;
+  font-size: 15px;
+}
+.artist-wrap .artist .artist__about .artist__link {
+  width: 80%;
+  position: absolute;
+  bottom: -18px;
+  left: 10%;
+  margin: 0 auto;
+  padding: 5px 0;
+  display: block;
+  text-align: center;
+  background-color: rgb(243, 214, 214);
+  color: white;
+  font-size: 14px;
+  line-height: 1.8;
 }/*# sourceMappingURL=style.css.map */
