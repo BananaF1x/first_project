@@ -32,7 +32,7 @@
 }
 
 .slider {
-  height: 500px;
+  height: 650px;
   background-color: antiquewhite;
   position: relative;
 }
@@ -87,7 +87,7 @@
 .artist-wrap .artist .artist__about {
   width: 45%;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   border: 1px solid black;
   padding: 20px 40px;
@@ -131,4 +131,116 @@
   color: white;
   font-size: 14px;
   line-height: 1.8;
+}
+
+.our-work-wrap {
+  position: relative;
+  padding-bottom: 400px;
+}
+.our-work-wrap .our-team-heading {
+  width: 100%;
+  padding: 74px 0;
+  background-color: rgb(247, 240, 236);
+  font-size: 46px;
+  text-align: center;
+}
+.our-work-wrap .our-work {
+  width: 50%;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  gap: 0 30px;
+}
+.our-work-wrap .our-work .our-work__block {
+  border: 1px solid black;
+  background-color: white;
+}
+.our-work-wrap .our-work .our-work__block .our-work__container {
+  position: relative;
+  margin: 10px;
+}
+.our-work-wrap .our-work .our-work__block .our-work__container .our-work__img {
+  width: 270px;
+  height: 380px;
+}
+.our-work-wrap .our-work .our-work__block .our-work__container .our-work__img:hover {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.our-work-wrap .our-work .our-work__block .our-work__container .our-work__link {
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(247, 240, 236);
+}
+
+.arrow-slider {
+  background: url("../images/11.jpg");
+  padding: 50px 0;
+}
+.arrow-slider .slider-block {
+  width: 50%;
+  margin: 0 auto;
+  padding: 60px 40px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.arrow-slider .slider-block .circle-img {
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: -55px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 50%;
+}
+.arrow-slider .slider-block .svg-wrap {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+}
+.arrow-slider .slider-block .svg-wrap svg {
+  width: 30px;
+}
+.arrow-slider .slider-block .arrow-slider-heading {
+  text-align: center;
+}
+.arrow-slider .slider-block .slider-block-text {
+  padding: 20px 0 60px;
+}
+.arrow-slider .slider-block .arrow {
+  position: absolute;
+  top: 50%;
+  background: none;
+}
+.arrow-slider .slider-block .left-arrow {
+  left: -40px;
+  transform: rotate(180deg);
+}
+.arrow-slider .slider-block .right-arrow {
+  right: -40px;
+}
+.arrow-slider .arrow-slider-link {
+  width: 50%;
+  margin: 30px auto 0;
+  padding: 5px 0;
+  display: block;
+  background-color: rgb(243, 214, 214);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
