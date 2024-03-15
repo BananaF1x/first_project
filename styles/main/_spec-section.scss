@@ -1,9 +1,9 @@
 .spec-section {
-    margin-top: 30px;
+    margin: 30px 0 50px;
     padding: 40px 0;
     background-color: rgba(247, 240, 236, 1);
     .spec-section__container-wrap {
-        width: 50%;
+        max-width: 950px;
         margin: 0 auto;
         border: 1px solid rgba(77, 77, 77, 1);
         .spec-section__container {
@@ -17,10 +17,9 @@
             }
             .spec-section__img-wrap {
                 display: flex;
-                gap: 10px;
+                justify-content: space-between;
                 .spec-section__img {
-                    width: 104px;
-                    height: 104px;
+                    width: 11%;
                 }
             }
         }

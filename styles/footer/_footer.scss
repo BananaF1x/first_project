@@ -1,15 +1,14 @@
 .footer {
     position: relative;
-    margin-top: 100px;
-    padding-top: 27%;
-    background-color: #F7F0EC;
+    // padding-top: 27%;
     .footer__photo-section {
-        min-width: 50%;
+        max-width: 950px;
+        margin: 0 auto;
         padding: 10px;
-        position: absolute;
-        top: -45px;
-        left: 50%;
-        transform: translate(-50%);
+        // position: absolute;
+        // top: -45px;
+        // left: 50%;
+        // transform: translate(-50%);
         display: flex;
         flex-wrap: wrap;
         gap: 5px;
@@ -28,7 +27,7 @@
         }
     }
     .footer__nav-section {
-        width: 50%;
+        max-width: 950px;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
@@ -41,6 +40,7 @@
                 width: 25%;
                 .footer__logo {
                     width: 100%;
+                    border-radius: 50%;
                 }
             }
             .footer__info {
@@ -104,5 +104,24 @@
                 }
             }
         }
+    }
+    .footer__position-bg-rotate {
+        width: 2000px;
+        height: 400px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+        transform: rotate(-6deg);
+        z-index: -1;
+        background-color: #F7F0EC;
+    }
+    .footer__position-bg {
+        width: 100%;
+        height: 700px;
+        position: absolute  ;
+        left: 0;
+        top: 60px;
+        z-index: -1;
+        background-color: #F7F0EC;
     }
 }
